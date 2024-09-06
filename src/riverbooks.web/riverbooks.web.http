@@ -1,9 +1,5 @@
 @riverbooks.web_HostAddress = http://localhost:5182
 
-GET {{riverbooks.web_HostAddress}}/weatherforecast/
-Accept: application/json
 
-###
-
-GET {{riverbooks.web_HostAddress}}/books 
+GET {{riverbooks.web_HostAddress}}/api/books 
 Accept: application/json

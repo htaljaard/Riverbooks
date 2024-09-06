@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "e16rgRPkSM8=",
+  "dgSpecHash": "PgsyjxQ7nag=",
   "success": true,
   "projectFilePath": "C:\\Code\\personal\\Riverbooks\\src\\riverbooks.web\\riverbooks.web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\htaljaard\\.nuget\\packages\\fastendpoints\\5.29.0\\fastendpoints.5.29.0.nupkg.sha512",
+    "C:\\Users\\htaljaard\\.nuget\\packages\\fastendpoints.attributes\\5.29.0\\fastendpoints.attributes.5.29.0.nupkg.sha512",
+    "C:\\Users\\htaljaard\\.nuget\\packages\\fastendpoints.messaging.core\\5.29.0\\fastendpoints.messaging.core.5.29.0.nupkg.sha512",
+    "C:\\Users\\htaljaard\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.8\\microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
