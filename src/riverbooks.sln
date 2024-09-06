@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "riverbooks.web", "riverbooks.web\riverbooks.web.csproj", "{153D6858-AA15-49A5-B820-6FCFCA6BECB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiverBooks.Books", "RiverBooks.Books\RiverBooks.Books.csproj", "{A4BD8F6D-7824-4A1A-BD34-0A0AD7B8472E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153D6858-AA15-49A5-B820-6FCFCA6BECB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153D6858-AA15-49A5-B820-6FCFCA6BECB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153D6858-AA15-49A5-B820-6FCFCA6BECB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153D6858-AA15-49A5-B820-6FCFCA6BECB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4BD8F6D-7824-4A1A-BD34-0A0AD7B8472E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BD8F6D-7824-4A1A-BD34-0A0AD7B8472E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BD8F6D-7824-4A1A-BD34-0A0AD7B8472E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BD8F6D-7824-4A1A-BD34-0A0AD7B8472E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
