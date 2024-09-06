@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddFastEndpoints();
 
 //module services
-builder.Services.AddBookServices();
+builder.Services.AddBookServices(builder.Configuration);
 
 var app = builder.Build();
 

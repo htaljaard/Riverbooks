@@ -15,7 +15,7 @@ internal class GetBooksEndPoint(IBookService bookService) : EndpointWithoutReque
 
     public override async Task HandleAsync(CancellationToken ct)
     {
-        var books = _bookService.GetBooks();
+        var books = await _bookService.ListBooksAsync();
 
         await SendAsync(new GetBooksResponse { Books = books }, cancellation: ct);
     }
