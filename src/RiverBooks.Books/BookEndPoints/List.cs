@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 
 namespace RiverBooks.Books;
 
-internal class GetBooksEndPoint(IBookService bookService) : EndpointWithoutRequest<GetBooksResponse>
+internal class List(IBookService bookService) : EndpointWithoutRequest<GetBooksResponse>
 {
     private readonly IBookService _bookService = bookService;
 
@@ -19,4 +19,10 @@ internal class GetBooksEndPoint(IBookService bookService) : EndpointWithoutReque
 
         await SendAsync(new GetBooksResponse { Books = books }, cancellation: ct);
     }
+}
+
+
+internal class GetBooksResponse
+{
+    public List<BookDto> Books { get; set; } = [];
 }
