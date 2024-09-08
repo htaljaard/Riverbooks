@@ -1,4 +1,4 @@
-@riverbooks.web_HostAddress = http://localhost:5182
+@riverbooks.web_HostAddress = https://localhost:7077
 @new_bookId = 1ca79649-c6c4-4a21-ab5c-6da5a2e5ac02
 
 
