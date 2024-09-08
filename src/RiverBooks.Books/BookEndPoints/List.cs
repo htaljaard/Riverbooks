@@ -22,7 +22,7 @@ internal class List(IBookService bookService) : EndpointWithoutRequest<GetBooksR
 }
 
 
-internal class GetBooksResponse
+public class GetBooksResponse
 {
     public List<BookDto> Books { get; set; } = [];
 }

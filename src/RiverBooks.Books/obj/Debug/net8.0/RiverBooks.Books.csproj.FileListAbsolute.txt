@@ -10,3 +10,4 @@ C:\Code\personal\Riverbooks\src\RiverBooks.Books\obj\Debug\net8.0\refint\RiverBo
 C:\Code\personal\Riverbooks\src\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.pdb
 C:\Code\personal\Riverbooks\src\RiverBooks.Books\obj\Debug\net8.0\ref\RiverBooks.Books.dll
 C:\Code\personal\Riverbooks\src\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.csproj.AssemblyReference.cache
+C:\Code\personal\Riverbooks\src\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.sourcelink.json
