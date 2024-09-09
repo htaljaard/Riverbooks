@@ -1,2 +1,23 @@
-@riverbooks.web_HostAddress = https://localhost:7077
+@HostAddress = https://localhost:7077
 
+###
+#CREATE A NEW USER
+POST {{HostAddress}}/api/users
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "hein@test.com",
+  "password": "Password@123"
+}
+
+###
+#LOGIN
+POST {{HostAddress}}/api/users/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "hein@test.com",
+  "password": "Password@123"
+}

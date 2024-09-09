@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace RiverBooks.Users.EndPoints
 {
-    public record CreateUserRequest(string Email, string Password);
     internal class Create : Endpoint<CreateUserRequest>
     {
         private readonly UserManager<ApplicationUser> _userManager;

@@ -5,14 +5,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using RiverBooks.Users.Data;
 
 #nullable disable
 
 namespace RiverBooks.Users.Data.Migrations
 {
     [DbContext(typeof(UsersDBContext))]
-    [Migration("20240908232117_InitialUsers2")]
-    partial class InitialUsers2
+    [Migration("20240909014723_AppUsers")]
+    partial class AppUsers
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
