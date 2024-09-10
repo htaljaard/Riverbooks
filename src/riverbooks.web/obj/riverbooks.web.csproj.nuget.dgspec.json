@@ -51,9 +51,17 @@
               "target": "Package",
               "version": "[4.6.0, )"
             },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
             "FastEndpoints": {
               "target": "Package",
               "version": "[5.29.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -223,7 +231,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Code\\personal\\Riverbooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
+                "projectPath": "C:\\Code\\personal\\Riverbooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -21,11 +21,10 @@ public class ApplicationUser : IdentityUser
         if (existingBook != null)
         {
             existingBook.AdjustQuantity(existingBook.Quantity + cartItem.Quantity);
+
+            //TODO: Update Details if changed. 
             return;
         }
         _cartItems.Add(cartItem);
-
-
-
     }
 }

@@ -1,5 +1,5 @@
 @HostAddress = https://localhost:7077
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJoZWluQHRlc3QuY29tIiwiaWF0IjoxNzI1OTQ1NDkzLCJleHAiOjE3MjU5NDkwOTMsIm5iZiI6MTcyNTk0NTQ5M30.weNeN2IKNchgOUL3ExJWaBLrN7br-wfKCQy6UbfXjwU
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJoZWluQHRlc3QuY29tIiwiaWF0IjoxNzI1OTQ5NDM1LCJleHAiOjE3MjU5NTMwMzUsIm5iZiI6MTcyNTk0OTQzNX0.tWjIh2QNa7b77ErZNRrMrlZYjnyGXAGc7r7EmuEy8LQ
 
 ###
 #LOGIN
@@ -21,7 +21,7 @@ Content-Type: application/json
 Authorization: Bearer {{token}}
 
 {
-  "bookId": "00000000-0000-0000-0000-000000000001",
+  "bookId": "00000000-0000-0000-0000-000000000002",
   "quantity": 1
 }
 

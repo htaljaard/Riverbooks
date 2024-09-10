@@ -1574,7 +1574,9 @@
       "RiverBooks.Books/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "4.6.0",
+          "Ardalis.Result": "9.1.0",
           "FastEndpoints": "5.29.0",
+          "MediatR": "12.4.1",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
           "Serilog.AspNetCore": "8.0.2"
@@ -1596,6 +1598,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+          "RiverBooks.Books": "1.0.0",
           "Serilog.AspNetCore": "8.0.2"
         },
         "runtime": {
