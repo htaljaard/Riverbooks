@@ -1,0 +1,33 @@
+@HostAddress = https://localhost:7077
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJoZWluQHRlc3QuY29tIiwiaWF0IjoxNzI1OTQ1NDkzLCJleHAiOjE3MjU5NDkwOTMsIm5iZiI6MTcyNTk0NTQ5M30.weNeN2IKNchgOUL3ExJWaBLrN7br-wfKCQy6UbfXjwU
+
+###
+#LOGIN
+POST {{HostAddress}}/api/users/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "hein@test.com",
+  "password": "Password@123"
+}
+
+### 
+#Add Cart Item
+
+POST {{HostAddress}}/api/cart
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "bookId": "00000000-0000-0000-0000-000000000001",
+  "quantity": 1
+}
+
+###
+#Get Cart Items
+GET {{HostAddress}}/api/cart
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}

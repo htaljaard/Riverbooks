@@ -177,3 +177,6 @@ C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\NSwag.Core.Yaml.
 C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\NSwag.Generation.dll
 C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\NSwag.Generation.AspNetCore.dll
 C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\YamlDotNet.dll
+C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\Ardalis.Result.dll
+C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\MediatR.dll
+C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\MediatR.Contracts.dll

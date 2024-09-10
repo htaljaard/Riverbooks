@@ -7,7 +7,7 @@ namespace RiverBooks.Books;
 
 public static class BookServiceExtensions
 {
-    public static IServiceCollection AddBookServices(this IServiceCollection services, ConfigurationManager config,ILogger logger)
+    public static IServiceCollection AddBookServices(this IServiceCollection services, ConfigurationManager config,ILogger logger, List<System.Reflection.Assembly> mediatorAssemblies)
     {
 
         string? conncetionString = config.GetConnectionString("BooksConnectionString");
@@ -16,6 +16,8 @@ public static class BookServiceExtensions
 
 
         services.AddScoped<IBookService, BookService>();
+
+        mediatorAssemblies.Add(typeof(BookServiceExtensions).Assembly);
 
         logger.Information("{Module} Module added", "Books");
         return services;

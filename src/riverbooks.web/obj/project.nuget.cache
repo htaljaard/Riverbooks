@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Mkt80F7lBio=",
+  "dgSpecHash": "it17JD/KBiY=",
   "success": true,
   "projectFilePath": "C:\\Code\\personal\\Riverbooks\\src\\riverbooks.web\\riverbooks.web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\htaljaard\\.nuget\\packages\\ardalis.guardclauses\\4.6.0\\ardalis.guardclauses.4.6.0.nupkg.sha512",
+    "C:\\Users\\htaljaard\\.nuget\\packages\\ardalis.result\\9.1.0\\ardalis.result.9.1.0.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\fastendpoints\\5.29.0\\fastendpoints.5.29.0.nupkg.sha512",
@@ -14,6 +15,8 @@
     "C:\\Users\\htaljaard\\.nuget\\packages\\fastendpoints.swagger\\5.29.0\\fastendpoints.swagger.5.29.0.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\htaljaard\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\htaljaard\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.8\\microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",
     "C:\\Users\\htaljaard\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.8\\microsoft.aspnetcore.cryptography.keyderivation.8.0.8.nupkg.sha512",

@@ -9,7 +9,7 @@ namespace RiverBooks.Users;
 public static class UsersModuleExtensions
 {
 
-    public static IServiceCollection AddUsersModule(this IServiceCollection services, IConfiguration configuration,ILogger logger)
+    public static IServiceCollection AddUsersModule(this IServiceCollection services, IConfiguration configuration,ILogger logger, List<System.Reflection.Assembly> mediatorAssemblies)
     {
 
         string? conncetionString = configuration.GetConnectionString("UsersConnectionString");
@@ -17,7 +17,11 @@ public static class UsersModuleExtensions
         services.AddDbContext<UsersDBContext>(options => options.UseSqlServer(conncetionString));
        
         services.AddIdentityCore<ApplicationUser>().AddEntityFrameworkStores<UsersDBContext>();
-        
+
+        services.AddScoped<IApplicationUserRepository, EFApplicationUserRepository>();
+
+        mediatorAssemblies.Add(typeof(UsersModuleExtensions).Assembly);
+
         logger.Information("{Module} Module added","Users");
         
         return services;

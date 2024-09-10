@@ -4,6 +4,7 @@ using FastEndpoints.Swagger;
 using RiverBooks.Books;
 using RiverBooks.Users;
 using Serilog;
+using System.Reflection;
 
 var logger = Log.Logger = new LoggerConfiguration()
     .Enrich.FromLogContext()
@@ -21,9 +22,16 @@ builder.Services.AddFastEndpoints()
                 .AddAuthorization()
                 .SwaggerDocument();
 
+
+
+
 //module services
-builder.Services.AddBookServices(builder.Configuration, logger);
-builder.Services.AddUsersModule(builder.Configuration, logger);
+
+List<Assembly> mediatorAssemblies = [typeof(Program).Assembly];
+builder.Services.AddBookServices(builder.Configuration, logger, mediatorAssemblies);
+builder.Services.AddUsersModule(builder.Configuration, logger, mediatorAssemblies);
+
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(mediatorAssemblies.ToArray()));
 
 var app = builder.Build();
 
