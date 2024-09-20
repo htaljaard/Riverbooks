@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RiverBooks.Users.EndPoints
+namespace RiverBooks.Users.EndPoint
 {
     internal class Create : Endpoint<CreateUserRequest>
     {

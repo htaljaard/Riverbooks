@@ -27,4 +27,9 @@ public class ApplicationUser : IdentityUser
         }
         _cartItems.Add(cartItem);
     }
+
+    internal void ClearCart()
+    {
+        _cartItems.Clear();
+    }
 }

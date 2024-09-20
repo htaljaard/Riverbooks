@@ -1,5 +1,5 @@
 @HostAddress = https://localhost:7077
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJoZWluQHRlc3QuY29tIiwiaWF0IjoxNzI1OTQ5NDM1LCJleHAiOjE3MjU5NTMwMzUsIm5iZiI6MTcyNTk0OTQzNX0.tWjIh2QNa7b77ErZNRrMrlZYjnyGXAGc7r7EmuEy8LQ
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJoZWluQHRlc3QuY29tIiwiaWF0IjoxNzI2ODc1NzMxLCJleHAiOjE3MjY4NzkzMzEsIm5iZiI6MTcyNjg3NTczMX0.CrTJFAmAkT1QJmvTuyAzwOtR8ISr_xOmtwRdBYoIC6w
 
 ###
 #LOGIN
@@ -31,3 +31,15 @@ GET {{HostAddress}}/api/cart
 Accept: application/json
 Content-Type: application/json
 Authorization: Bearer {{token}}
+
+
+###
+POST {{HostAddress}}/api/cart/checkout
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "shippingAddressId": "00000000-0000-0000-0000-000000000002",
+  "billingAddressId": "00000000-0000-0000-0000-000000000002"
+}

@@ -1,15 +1,10 @@
 ﻿using Ardalis.Result;
 using FastEndpoints;
 using MediatR;
-using RiverBooks.Users.UseCases;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using RiverBooks.Users.UseCases.Cart;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RiverBooks.Users.CartEndPoints
+namespace RiverBooks.Users.CartEndPoints.AddItem
 {
     internal class AddItem : Endpoint<AddCartItemRequest>
     {

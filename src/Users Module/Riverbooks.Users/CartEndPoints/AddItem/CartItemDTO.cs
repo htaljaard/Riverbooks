@@ -1,4 +1,4 @@
-﻿namespace RiverBooks.Users.CartEndPoints
+﻿namespace RiverBooks.Users.CartEndPoints.AddItem
 {
     public record CartItemDTO(Guid Id, Guid BookId, string Description, int Quantity, decimal UnitPrice);
 }

@@ -1,8 +1,8 @@
 ﻿using Ardalis.Result;
 using MediatR;
-using RiverBooks.Users.CartEndPoints;
+using RiverBooks.Users.CartEndPoints.AddItem;
 
-namespace RiverBooks.Users.UseCases;
+namespace RiverBooks.Users.UseCases.Cart.ListCartItems;
 
 public class ListCartItemQueryHandler : IRequestHandler<ListCartItemQuery, Result<List<CartItemDTO>>>
 {

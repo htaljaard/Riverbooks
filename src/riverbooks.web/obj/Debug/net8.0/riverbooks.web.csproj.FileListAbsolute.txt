@@ -182,3 +182,5 @@ C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\MediatR.dll
 C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\Riverbooks.OrderProcessing.dll
 C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\Riverbooks.OrderProcessing.pdb
+C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\OrderProcessing.Contracts.dll
+C:\Code\personal\Riverbooks\src\riverbooks.web\bin\Debug\net8.0\OrderProcessing.Contracts.pdb

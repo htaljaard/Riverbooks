@@ -2663,6 +2663,20 @@
           }
         }
       },
+      "OrderProcessing.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "MediatR": "12.4.1"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessing.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Contracts.dll": {}
+        }
+      },
       "RiverBooks.Books/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2695,6 +2709,7 @@
           "MediatR": "12.4.1",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+          "OrderProcessing.Contracts": "1.0.0",
           "Serilog.AspNetCore": "8.0.2"
         },
         "compile": {
@@ -2719,6 +2734,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+          "OrderProcessing.Contracts": "1.0.0",
           "RiverBooks.Books": "1.0.0",
           "Serilog.AspNetCore": "8.0.2"
         },
@@ -7897,6 +7913,11 @@
         "yamldotnet.15.1.4.nupkg.sha512",
         "yamldotnet.nuspec"
       ]
+    },
+    "OrderProcessing.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing/OrderProcessing.Contracts/OrderProcessing.Contracts.csproj",
+      "msbuildProject": "../OrderProcessing/OrderProcessing.Contracts/OrderProcessing.Contracts.csproj"
     },
     "RiverBooks.Books/1.0.0": {
       "type": "project",
