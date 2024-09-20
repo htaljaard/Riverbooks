@@ -3,6 +3,7 @@ using FastEndpoints.Security;
 using FastEndpoints.Swagger;
 using RiverBooks.Books;
 using RiverBooks.Users;
+using RiverBooks.OrderProcessing;
 using Serilog;
 using System.Reflection;
 
@@ -28,8 +29,12 @@ builder.Services.AddFastEndpoints()
 //module services
 
 List<Assembly> mediatorAssemblies = [typeof(Program).Assembly];
-builder.Services.AddBookServices(builder.Configuration, logger, mediatorAssemblies);
-builder.Services.AddUsersModule(builder.Configuration, logger, mediatorAssemblies);
+builder.Services
+    .AddBookModuleServices(builder.Configuration, logger, mediatorAssemblies)
+    .AddUsersModuleServices(builder.Configuration, logger, mediatorAssemblies)
+    .AddOrderProcessingModuleServices(builder.Configuration, logger, mediatorAssemblies);
+
+
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(mediatorAssemblies.ToArray()));
 

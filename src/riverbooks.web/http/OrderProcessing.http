@@ -1,0 +1,20 @@
+@HostAddress = https://localhost:7077
+@token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJoZWluQHRlc3QuY29tIiwiaWF0IjoxNzI2ODczMDA5LCJleHAiOjE3MjY4NzY2MDksIm5iZiI6MTcyNjg3MzAwOX0.AEqsqeLIjlHRLlANWtz5tXGga-0fgA1vXo0Jf3_LQ8k
+###
+#LOGIN
+POST {{HostAddress}}/api/users/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "hein@test.com",
+  "password": "Password@123"
+}
+
+###
+GET {{HostAddress}}/api/orders
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+

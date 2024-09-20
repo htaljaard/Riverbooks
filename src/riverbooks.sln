@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderProcessing Module", "OrderProcessing Module", "{52ED7E5D-E927-4C33-AE83-6D32682CD787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riverbooks.OrderProcessing", "OrderProcessing\Riverbooks.OrderProcessing\Riverbooks.OrderProcessing.csproj", "{B20F1B72-0470-4547-BBFB-1B99DC8495E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,10 @@ Global
 		{77CF1A9E-14F5-4FC9-95ED-F846E2759A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77CF1A9E-14F5-4FC9-95ED-F846E2759A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77CF1A9E-14F5-4FC9-95ED-F846E2759A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20F1B72-0470-4547-BBFB-1B99DC8495E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20F1B72-0470-4547-BBFB-1B99DC8495E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20F1B72-0470-4547-BBFB-1B99DC8495E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20F1B72-0470-4547-BBFB-1B99DC8495E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{032066CE-2928-407D-BACD-8D302419ADD7} = {58FA490E-B35A-41A5-BDEE-DE2607A1E27D}
 		{C458217A-49CF-440C-BD65-E162E194C716} = {58FA490E-B35A-41A5-BDEE-DE2607A1E27D}
 		{77CF1A9E-14F5-4FC9-95ED-F846E2759A90} = {9B71BBB2-9915-45DE-885E-B1ABEE384B3F}
+		{B20F1B72-0470-4547-BBFB-1B99DC8495E8} = {52ED7E5D-E927-4C33-AE83-6D32682CD787}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56AF4F7C-08ED-4275-8EC8-87637E6BC992}

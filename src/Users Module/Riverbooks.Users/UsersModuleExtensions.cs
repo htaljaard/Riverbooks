@@ -9,7 +9,7 @@ namespace RiverBooks.Users;
 public static class UsersModuleExtensions
 {
 
-    public static IServiceCollection AddUsersModule(this IServiceCollection services, IConfiguration configuration,ILogger logger, List<System.Reflection.Assembly> mediatorAssemblies)
+    public static IServiceCollection AddUsersModuleServices(this IServiceCollection services, IConfiguration configuration,ILogger logger, List<System.Reflection.Assembly> mediatorAssemblies)
     {
 
         string? conncetionString = configuration.GetConnectionString("UsersConnectionString");

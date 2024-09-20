@@ -16,6 +16,7 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.8",
           "RiverBooks.Books": "1.0.0",
           "RiverBooks.Users": "1.0.0",
+          "Riverbooks.OrderProcessing": "1.0.0",
           "Serilog.AspNetCore": "8.0.2",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -1588,6 +1589,23 @@
           }
         }
       },
+      "Riverbooks.OrderProcessing/1.0.0": {
+        "dependencies": {
+          "Ardalis.GuardClauses": "4.6.0",
+          "Ardalis.Result": "9.1.0",
+          "FastEndpoints": "5.29.0",
+          "MediatR": "12.4.1",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+          "Serilog.AspNetCore": "8.0.2"
+        },
+        "runtime": {
+          "Riverbooks.OrderProcessing.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "RiverBooks.Users/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "4.6.0",
@@ -2639,6 +2657,11 @@
       "hashPath": "yamldotnet.15.1.4.nupkg.sha512"
     },
     "RiverBooks.Books/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Riverbooks.OrderProcessing/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

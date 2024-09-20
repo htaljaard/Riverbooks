@@ -2685,6 +2685,28 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Riverbooks.OrderProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.GuardClauses": "4.6.0",
+          "Ardalis.Result": "9.1.0",
+          "FastEndpoints": "5.29.0",
+          "MediatR": "12.4.1",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+          "Serilog.AspNetCore": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Riverbooks.OrderProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Riverbooks.OrderProcessing.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "RiverBooks.Users/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -7881,6 +7903,11 @@
       "path": "../RiverBooks.Books/RiverBooks.Books.csproj",
       "msbuildProject": "../RiverBooks.Books/RiverBooks.Books.csproj"
     },
+    "Riverbooks.OrderProcessing/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing/Riverbooks.OrderProcessing/Riverbooks.OrderProcessing.csproj",
+      "msbuildProject": "../OrderProcessing/Riverbooks.OrderProcessing/Riverbooks.OrderProcessing.csproj"
+    },
     "RiverBooks.Users/1.0.0": {
       "type": "project",
       "path": "../Users Module/Riverbooks.Users/RiverBooks.Users.csproj",
@@ -7897,6 +7924,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "RiverBooks.Books >= 1.0.0",
       "RiverBooks.Users >= 1.0.0",
+      "Riverbooks.OrderProcessing >= 1.0.0",
       "Serilog.AspNetCore >= 8.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -7929,6 +7957,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Code\\personal\\Riverbooks\\src\\OrderProcessing\\Riverbooks.OrderProcessing\\Riverbooks.OrderProcessing.csproj": {
+              "projectPath": "C:\\Code\\personal\\Riverbooks\\src\\OrderProcessing\\Riverbooks.OrderProcessing\\Riverbooks.OrderProcessing.csproj"
+            },
             "C:\\Code\\personal\\Riverbooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
               "projectPath": "C:\\Code\\personal\\Riverbooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj"
             },
